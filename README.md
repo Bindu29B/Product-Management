@@ -10,6 +10,15 @@ A Spring Boot application that provides a RESTful API for managing products. Thi
   <li>Comprehensive exception handling for better user experience.</li>
   <li>Configurable database integration using Hibernate and JPA.</li>
 </ul>
+<hr>
+<h3>Technologies Used</h3>
+<ul>
+  <li>Spring Boot (Framework)
+Hibernate (ORM tool)
+MySQL (Database)
+JPA (Java Persistence API)
+Postman (API Testing)</li>
+</ul>
 
 
 
