@@ -31,7 +31,7 @@ Before running this application, ensure you have:
 <hr>
 <h3>Installation and Setup</h3>
 <ol>
-  <li><h1>Clone the Repositriy<h1></li>
+  <li><h5>Clone the Repositriy</h5></li>
     git clone https://github.com/yourusername/product-management.git
     cd product-management
 </ol>
