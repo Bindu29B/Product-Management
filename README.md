@@ -39,11 +39,41 @@ Before running this application, ensure you have:
     <h4>Set Up the MySQL Database</h4>
     <ul>
       <li>Open your MySQL client and create a database:</li>
-      <br>
           CREATE DATABASE product_management;
       <li>Update the application.yml file with your MySQL credentials.</li>
     </ul>
   </li>
+  <li>
+    <h4>Build and Run the Application</h4>
+     <ul>
+      <li>Use the following Maven command:</li>
+          mvn spring-boot:run
+      <li>Alternatively, run the application from your IDE.</li>
+    </ul>
+  </li>
+    <li>
+    <h4>Access the API</h4>
+     <ul>
+      <li>Open Postman or your preferred API testing tool.</li>
+      <li>Use the endpoints listed in the API Endpoints section.</li>
+    </ul>
+  </li>
 </ol>
+<hr>
+<h3>Configuration</h3>
+The database connection details are configured in the src/main/resources/application.yml file:
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/product_management
+    username: root
+    password: yourpassword
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
 
 
