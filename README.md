@@ -66,16 +66,27 @@ Before running this application, ensure you have:
 </p>
 <p>
 server:
+  <br>
   port: 8081
+  <br>
 spring:
+  <br>
   datasource:
+  <br>
     url: jdbc:mysql://localhost:3306/product_management
+  <br>
     username: root
+  <br>
     password: yourpassword
+  <br>
     driver-class-name: com.mysql.cj.jdbc.Driver
+  <br>
   jpa:
+  <br>
     hibernate:
+  <br>
       ddl-auto: update
+  <br>
     show-sql: true
 </p>
 
