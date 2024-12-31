@@ -31,10 +31,10 @@ Before running this application, ensure you have:
 <hr>
 <h3>Installation and Setup</h3>
 <ol>
-  <li><h4>Clone the Repositriy</h4></li>
-    git clone https://github.com/yourusername/product-management.git
-  <br>
-    cd product-management
+  <li>
+    <h4>Clone the Repositriy</h4></li>
+    <pre>git clone https://github.com/yourusername/product-management.git
+    cd product-management</pre>
   <li>
     <h4>Set Up the MySQL Database</h4>
     <ul>
