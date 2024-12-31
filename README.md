@@ -49,7 +49,7 @@ Before running this application, ensure you have:
     <h4>Build and Run the Application</h4>
      <ul>
       <li>Use the following Maven command:</li>
-          mvn spring-boot:run
+          <pre>mvn spring-boot:run</pre>
       <li>Alternatively, run the application from your IDE.</li>
     </ul>
   </li>
@@ -79,6 +79,75 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+</pre>
+<hr>
+<h3>API Endpoints</h3>
+<ol>
+  <li>
+    <h4>Create a Product</h4>
+    <ul>
+      <li>Endpoint:<pre> POST /products</pre></li>
+      <li>Request Body:
+        <pre>
+          {
+            "name": "Laptop",
+            "category": "Electronics",
+            "price": 75000.00
+          }
+        </pre>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h4>Get All Products</h4>
+    <ul>
+      <li>Endpoint:<pre> GET /products</pre></li>
+    </ul>
+  </li>
+  <li>
+    <h4>Get Product by ID</h4>
+    <ul>
+      <li>Endpoint:<pre> GET /products/{id}</pre></li>
+    </ul>
+  </li>
+  <li>
+    <h4>Update a Product</h4>
+    <ul>
+      <li>Endpoint:<pre> PUT /products/{id}</pre></li>
+      <li>Request Body:
+      <pre>
+        {
+          "name": "Updated Laptop",
+          "category": "Electronics",
+          "price": 80000.00
+        }
+      </pre>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h4>Delete a Product</h4>
+    <ul>
+      <li>Endpoint:<pre> DELETE /products/{id}</pre></li>
+    </ul>
+  </li>
+</ol>
+<hr>
+<h3>Directory Structure</h3>
+<pre>
+  product-management/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/productmanagement/
+│   │   │   ├── controller/    # REST API Controllers
+│   │   │   ├── model/         # Entity Classes
+│   │   │   ├── repository/    # JPA Repositories
+│   │   │   ├── service/       # Business Logic Layer
+│   │   │   ├── ProductManagementApplication.java
+│   ├── resources/
+│   │   ├── application.yml    # Configuration File
+├── pom.xml                    # Maven Configuration
+
 </pre>
 
 
