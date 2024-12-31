@@ -33,13 +33,15 @@ Before running this application, ensure you have:
 <ol>
   <li>
     <h4>Clone the Repositriy</h4></li>
-    <pre>git clone https://github.com/yourusername/product-management.git
-    cd product-management</pre>
+    <pre>
+      git clone https://github.com/yourusername/product-management.git
+      cd product-management
+    </pre>
   <li>
     <h4>Set Up the MySQL Database</h4>
     <ul>
       <li>Open your MySQL client and create a database:</li>
-          CREATE DATABASE product_management;
+          <pre>CREATE DATABASE product_management;</pre>
       <li>Update the application.yml file with your MySQL credentials.</li>
     </ul>
   </li>
@@ -62,7 +64,7 @@ Before running this application, ensure you have:
 <hr>
 <h3>Configuration</h3>
 <p>
-  The database connection details are configured in the     src/main/resources/application.yml file:
+The database connection details are configured in the     src/main/resources/application.yml file:
 </p>
 <pre>
 server:
@@ -77,6 +79,6 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-    </pre>
+</pre>
 
 
