@@ -31,9 +31,19 @@ Before running this application, ensure you have:
 <hr>
 <h3>Installation and Setup</h3>
 <ol>
-  <li><h5>Clone the Repositriy</h5></li>
+  <li><h4>Clone the Repositriy</h4></li>
     git clone https://github.com/yourusername/product-management.git
+  <br>
     cd product-management
+  <li>
+    <h4>Set Up the MySQL Database</h4>
+    <ul>
+      <li>Open your MySQL client and create a database:</li>
+      <br>
+          CREATE DATABASE product_management;
+      <li>Update the application.yml file with your MySQL credentials.</li>
+    </ul>
+  </li>
 </ol>
 
 
