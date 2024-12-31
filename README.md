@@ -135,7 +135,7 @@ spring:
 <hr>
 <h3>Directory Structure</h3>
 <pre>
-  product-management/
+product-management/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/example/productmanagement/
