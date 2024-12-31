@@ -13,12 +13,27 @@ A Spring Boot application that provides a RESTful API for managing products. Thi
 <hr>
 <h3>Technologies Used</h3>
 <ul>
-  <li>Spring Boot (Framework)
-Hibernate (ORM tool)
-MySQL (Database)
-JPA (Java Persistence API)
-Postman (API Testing)</li>
+  <li>Spring Boot (Framework)</li>
+  <li>Hibernate (ORM tool)</li>
+  <li>MySQL (Database)</li>
+  <li>JPA (Java Persistence API)</li>
+  <li>Postman (API Testing)</li>
 </ul>
-
+<hr>
+<h3>Prerequisites</h3>
+Before running this application, ensure you have:
+<ul>
+  <li>Java Development Kit (JDK 17 or later)</li>
+  <li>MySQL Server</li>
+  <li>Spring Tool Suite (STS) or any IDE with Maven support</li>
+  <li>Postman (optional, for API testing)</li>
+</ul>
+<hr>
+<h3>Installation and Setup</h3>
+<ol>
+  <li><h1>Clone the Repositriy<h1></li>
+    git clone https://github.com/yourusername/product-management.git
+    cd product-management
+</ol>
 
 
