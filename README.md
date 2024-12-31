@@ -61,7 +61,10 @@ Before running this application, ensure you have:
 </ol>
 <hr>
 <h3>Configuration</h3>
-The database connection details are configured in the src/main/resources/application.yml file:
+<p>
+  The database connection details are configured in the     src/main/resources/application.yml file:
+</p>
+<p>
 server:
   port: 8081
 spring:
@@ -74,6 +77,6 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-
+</p>
 
 
