@@ -138,7 +138,7 @@ spring:
 product-management/
 ├── src/
 │   ├── main/
-│   │   ├── java/com/example/productmanagement/
+│   │   ├── java/com/example/demo/
 │   │   │   ├── controller/    # REST API Controllers
 │   │   │   ├── model/         # Entity Classes
 │   │   │   ├── repository/    # JPA Repositories
